@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/tvCameraH"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_marginTop="20dp"
+        android:background="#44000000"
+        android:gravity="center"
+        android:text="横屏-Camera1" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_marginTop="20dp"
+        android:background="#44000000"
+        android:gravity="center"
+        android:text="竖屏-Camera2" />
+
+    <ImageView
+        android:id="@+id/ivPic"
+        android:scaleType="centerInside"
+        android:layout_width="400dp"
+        android:layout_height="400dp"/>
+
+</LinearLayout>
